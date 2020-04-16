@@ -2,47 +2,34 @@ package app;
 
 public class App {
     public static void main( String[] args) throws Exception {
-        System.out.println("Hello Java");
 
-        System.out.println("for loops");
-        int count =0;
-
-        while (count <= 10){
-            System.out.println("the count is" + count);
-            count = count + 1;
-        } 
-    
-        for (int i = 0; i <= 10; i = i +1){
-            System.out.println("the count is " + i);
-            System.out.println("Lets keep counting");
+        for (int i = 22; i <= 28; i = i +3){
+            System.out.println(i);
             
         }
-        System.out.println("that was practice");
 
-        for (int i = 10; i <= 20; i = i +1){
-            System.out.println("the count is " + i);
-            System.out.println("Lets keep counting");
-        }
-
-        for (int i = 10; i <= 100; i = i +5){
-            System.out.println("the count is " + i);
-            System.out.println("Lets keep counting");
-        }
-
-        for (int i = 1000; i <= 256000; i = i +1000){
-            System.out.println("the count is " + i);
-            System.out.println("Lets keep counting");
-        }
-
-        for (int i = 11; i <= 12; i = i +1){
-            System.out.println("the count is " + i);
-            System.out.println("Lets keep counting");
-        }
-
-        for (int i = 10; i >= 0; i = i -1){
-            System.out.println("the count is " + i);
-            System.out.println("Lets keep counting");
-        }
+        for (int i = 2; i <= 32; i = i * 2){
+            System.out.println(i);
         
+        }
+
+        for (int i = 3; i >= -81; i = i * -i){
+            System.out.println(i);
+            
+        }
+
+        for (int i = 50; i >= 5; i = i -5){
+            System.out.println(i);
+            
+        }
+
+        System.out.println("1 4 1 4 5 2");
+
+        for (int i = 9; i >=3; i = i -3){
+            System.out.println(i);
+           
+        }
+        System.out.println("16 7 4 25 8 5 36 9 6 49 10 7 64 11 8 81 12");
+        System.out.println("i am currently working on other classes and will com bac to this.");
         }
     }
