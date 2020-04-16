@@ -23,13 +23,13 @@ public class App {
             
         }
 
-        System.out.println("1 4 1 4 5 2");
 
-        for (int i = 9; i >=3; i = i -3){
+        for (int i = 1; i <=9; i = i + 1 ){
+             System.out.println(i * i);
+            System.out.println(i +3);
             System.out.println(i);
            
         }
-        System.out.println("16 7 4 25 8 5 36 9 6 49 10 7 64 11 8 81 12");
-        System.out.println("i am currently working on other classes and will com bac to this.");
+       
         }
     }
