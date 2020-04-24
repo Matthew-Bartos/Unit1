@@ -3,38 +3,48 @@ package app;
 public class App {
     public static void main(String[] args) throws Exception {
 
-        System.out.println("Double or single digit?");
+        System.out.println("Start first loop");
 
-        for (int i = 20; i > 0; i--) {
-            if (i >= 10) {
+        for (int i = 1; i <=10; i++) {
+            if (i == 5) {
                
-                System.out.println(i + " is double digit");
+                System.out.println("five");
                 
                 }
 
              else {
-                System.out.println(i + " is single digit");
+                System.out.println(i);
             }
         }
         
-        System.out.println("Nice!");
-        System.out.println("Fast food");
+        System.out.println("End first loop");
+        System.out.println("start second loop");
 
-        for (int i = 1; i <= 12; i++ ) {
-            if (i %2 == 0) {
-                System.out.println("Fries");
+        for (int i = 100; i <= 201; i = i + 10 ) {
+           if  (i <= 150){
+            System.out.println(i);
+           }
+            
+            if (i >= 150 ) {
+                
+                
+                while (i <= 160) {
+                    System.out.println(i);
+                    i ++;
+                }
 
 
 
 
         }
         
-        else{
-             System.out.println("Burgers");   
+        if (i >= 160) {
+             System.out.println(i - 1);   
             }
+        
             
     }
-        System.out.println("Nice!");
+        System.out.println("End second loop");
         
   
   
