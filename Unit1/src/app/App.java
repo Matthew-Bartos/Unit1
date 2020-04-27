@@ -20,27 +20,23 @@ public class App {
         System.out.println("End first loop");
         System.out.println("start second loop");
 
-        for (int i = 100; i <= 201; i = i + 10 ) {
-           if  (i <= 150){
-            System.out.println(i);
-           }
+        for (int i = 100; i < 201; i = i + 10 ) {
+             System.out.println(i);
+           
             
-            if (i >= 150 ) {
+            if (i == 150 ) {
                 
                 
-                while (i <= 160) {
-                    System.out.println(i);
-                    i ++;
+                for(int x = 151; x < 160; x++) {
+                    System.out.println(x);
+                    
                 }
 
 
 
 
         }
-        
-        if (i >= 160) {
-             System.out.println(i - 1);   
-            }
+    
         
             
     }
