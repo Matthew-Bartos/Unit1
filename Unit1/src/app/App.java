@@ -7,31 +7,17 @@ public class App {
 
       Scanner input = new Scanner(System.in); 
 
-      System.out.println("Please enter your first name.");
-      String firstName = input.nextLine();
+  
+         System.out.println("Please enter a random number");
+      int v = input.nextInt();
+     for ( int x = 1 ; x <= v; x++){
+          System.out.println(x);
+     }
 
-      System.out.println("Please enter your last name.");
-      String lastName = input.nextLine();
-
-       System.out.println("Please enter your age.");
-      String age = input.nextLine();
-
-       System.out.println("Please enter your grade.");
-      String grade = input.nextLine();
-      
-    System.out.println("Hello, " + firstName + " " + lastName + " who is in their " + age + " year of life and is progressing through grade " + grade + ".");
-     System.out.println("Please enter your passcode to continue.");
-     String passcode = input.nextLine();{
-          		if (passcode == "18372603"){
-           System.out.println("access denied");    
-          }
-
-          else{
-               System.out.println("access granted");
-          }
+        
             
       
-    }
+    
         
         
   
