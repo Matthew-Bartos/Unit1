@@ -7,43 +7,19 @@ public class App {
       Scanner input = new Scanner(System.in); 
 
   
-         System.out.println("Please answer the following quwstions");
-          System.out.println("Is the earth round?");
-      String isTheEarthRound = input.nextLine();
-     if (isTheEarthRound == "yes"){
-          System.out.println("incorrect");
-     }
+        System.out.println("Type a number");
+        double numOne = input.nextDouble();
+       
+        System.out.println("Type a number");
+        double numTwo = input.nextDouble();
 
-        else{
-            System.out.println("correct");
-        }
-            
-       System.out.println("are dogs marsupials?");
-    String areDogsMarsupials = input.nextLine();
-     if (areDogsMarsupials == "yes"){
-          System.out.println("incorrect");
-     }
-
-        else{
-            System.out.println("correct");
-        }
-         System.out.println(" we're in highschool.");
-        String isInHighschool = input.nextLine();
-     if (isInHighschool == "yes"){
-          System.out.println("incorrect");
-     }
-
-        else{
-            System.out.println("correct");
-        }
-             System.out.println("good job");
+        System.out.println( numOne +  numTwo + " is your answer if added"  );
         
-        
-  
-  
-  
-  
-  
+       System.out.println( numOne +- numTwo + " is your answer if subtracted ");
+
+       System.out.println( numOne *  numTwo + " is your answer if multiplied ");
+       
+       System.out.println(numOne /  numTwo + " is your answer  if divided "); 
     }
 
     
